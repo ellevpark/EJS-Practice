@@ -1,2 +1,2 @@
 # EJS-Practice
-Practicing templating with EJS
+Practicing templating with EJS with Udemy course. 
