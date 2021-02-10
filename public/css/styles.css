@@ -67,6 +67,16 @@ button {
   padding-bottom: 6px;
   border-width: 0;
 }
+#deleteBtn {
+  margin-left: 5.2em;
+  background-color:transparent;
+}
+
+i {
+  font-size: 20px;
+  color: #A683E3;
+  z-index: 1;
+}
 
 input[type="text"] {
   text-align: center;

@@ -34,6 +34,13 @@ app.post("/", (req, res) => {
   res.redirect("/")
 });
 
+app.post("/deleteItem", (req, res) => {
+  let item = req.body.deleteItem;
+  items.splice(items.indexOf(item), 1);
+
+  res.redirect("/");
+})
+
 app.listen(3000, function() {
   console.log("I am listening")
 })
